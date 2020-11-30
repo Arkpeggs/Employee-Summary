@@ -5,7 +5,9 @@
 
 ## Description
 This is a CLI that will prompt for Manager and employee information before generating an HTML webpage to display each employee. 
+<br>
 ![HTML](outputcapture.PNG)
+<br>
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -31,7 +33,9 @@ N/A
 
 ## Tests
 npm run test
+<br>
 ![Tests](testcapture.PNG)
+<br>
 ## Questions
 https://github.com/Arkpeggs/Employee-Summary<br />
 <br />
