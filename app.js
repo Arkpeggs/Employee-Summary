@@ -6,7 +6,7 @@ const Manager = require("./lib/Manager");
 
 let employeeID = 1;
 let employeeList = [];
-
+//This function prompts manager questions
 function managerPrompts() {
    inquirer
       .prompt([
@@ -52,7 +52,7 @@ function managerPrompts() {
          employeePrompts();
       });
 }
-
+//This function prompts employee questions
 function employeePrompts() {
    inquirer
       .prompt([
@@ -151,9 +151,9 @@ function employeePrompts() {
                });
          }
       });
-   // console.log(employeeList);
-}
 
+}
+// This function generates HTML
 function generatePage() {
    let allCards = "";
 
